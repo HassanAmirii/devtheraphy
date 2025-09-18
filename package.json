@@ -1,0 +1,28 @@
+{
+  "name": "devtheraphy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HassanAmirii/devtheraphy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/HassanAmirii/devtheraphy/issues"
+  },
+  "homepage": "https://github.com/HassanAmirii/devtheraphy#readme",
+  "dependencies": {
+    "@prisma/client": "^6.16.1",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "prisma": "^6.16.1"
+  }
+}
