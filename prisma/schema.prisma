@@ -15,6 +15,5 @@ model Resource {
   type              String
   url               String
   tags              String
-  shortDescription  String
 }
 
