@@ -18,8 +18,3 @@ model Resource {
   shortDescription  String
 }
 
-model Prompt {
-  id               Int      @id @default(autoincrement())
-  emotionCategory  String
-  text              String
-}
