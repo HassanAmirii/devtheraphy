@@ -9,11 +9,6 @@ app.get("/resources", async (req, res) => {
   res.json(data);
 });
 
-app.get("/prompts", async (req, res) => {
-  const data = await prisma.prompt.findMany();
-  res.json(data);
-});
-
 app.listen(3000, () => {
   console.log("Server running on http://localhost:3000");
 });
